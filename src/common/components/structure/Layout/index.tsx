@@ -1,5 +1,5 @@
 import React from "react";
-import { Aside } from "..";
+import { Aside, MainHeader } from "..";
 import * as S from "./styles";
 
 type LayoutProps = {
@@ -9,6 +9,7 @@ type LayoutProps = {
 export default function Layout({ children }: LayoutProps) {
   return (
     <S.Grid>
+      <MainHeader />
       <Aside />
     </S.Grid>
   );
