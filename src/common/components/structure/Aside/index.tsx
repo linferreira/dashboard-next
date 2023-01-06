@@ -34,12 +34,12 @@ export default function Aside() {
           Dashboard
         </S.MenuItemLink>
 
-        <S.MenuItemLink href="/list/entry-balance">
+        <S.MenuItemLink href="/">
           <MdArrowUpward />
           Entradas
         </S.MenuItemLink>
 
-        <S.MenuItemLink href="/list/exit-balance">
+        <S.MenuItemLink href="/">
           <MdArrowDownward />
           Saídas
         </S.MenuItemLink>
