@@ -1,8 +1,9 @@
+import { Layout } from '@/components/structure'
 import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
-    <h1>Hello World</h1>
+    <Layout>Hello World</Layout>
   )
 }
 
